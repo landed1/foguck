@@ -6,4 +6,4 @@ public/studio
 .env
 .next
 .sanity-template
-studio
+studio/
