@@ -798,7 +798,7 @@
     "lodash" "^4.17.19"
     "to-fast-properties" "^2.0.0"
 
-"@daybrush/utils@^1.0.0", "@daybrush/utils@^1.1.1":
+"@daybrush/utils@^1.0.0", "@daybrush/utils@^1.1.1", "@daybrush/utils@>=1.0.0":
   "resolved" "https://registry.npmjs.org/@daybrush/utils/-/utils-1.4.0.tgz"
   "version" "1.4.0"
 
@@ -907,7 +907,7 @@
   "resolved" "https://registry.npmjs.org/@sanity/asset-utils/-/asset-utils-1.1.2.tgz"
   "version" "1.1.2"
 
-"@sanity/base@^2.3.2", "@sanity/base@2.3.2":
+"@sanity/base@^2.0.0", "@sanity/base@^2.3.2", "@sanity/base@2.3.2":
   "resolved" "https://registry.npmjs.org/@sanity/base/-/base-2.3.2.tgz"
   "version" "2.3.2"
   dependencies:
@@ -1579,7 +1579,7 @@
     "@sanity/util" "2.2.6"
     "loader-utils" "1.1.0"
 
-"@scena/dragscroll@^0.2.1":
+"@scena/dragscroll@>=0.2.1":
   "resolved" "https://registry.npmjs.org/@scena/dragscroll/-/dragscroll-0.2.1.tgz"
   "version" "0.2.1"
   dependencies:
@@ -2465,7 +2465,6 @@
     "anymatch" "^2.0.0"
     "async-each" "^1.0.1"
     "braces" "^2.3.2"
-    "fsevents" "^1.2.7"
     "glob-parent" "^3.1.0"
     "inherits" "^2.0.3"
     "is-binary-path" "^1.0.0"
@@ -2483,7 +2482,6 @@
   dependencies:
     "anymatch" "~3.1.1"
     "braces" "~3.0.2"
-    "fsevents" "~2.3.1"
     "glob-parent" "~5.1.0"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -2965,7 +2963,7 @@
     "@daybrush/utils" "^1.0.0"
     "string-hash" "^1.1.3"
 
-"css-to-mat@^0.1.3":
+"css-to-mat@>=0.1.2":
   "resolved" "https://registry.npmjs.org/css-to-mat/-/css-to-mat-0.1.7.tgz"
   "version" "0.1.7"
   dependencies:
@@ -3592,7 +3590,6 @@
     "estraverse" "^4.2.0"
     "esutils" "^2.0.2"
     "optionator" "^0.8.1"
-    "source-map" "~0.6.1"
   optionalDependencies:
     "source-map" "~0.6.1"
 
@@ -4012,7 +4009,6 @@
   "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-3.2.1.tgz"
   "version" "3.2.1"
   dependencies:
-    "@emotion/is-prop-valid" "^0.8.2"
     "framesync" "^5.0.0"
     "hey-listen" "^1.0.8"
     "popmotion" "^9.1.0"
@@ -4025,7 +4021,7 @@
   "resolved" "https://registry.npmjs.org/framesync/-/framesync-5.0.0.tgz"
   "version" "5.0.0"
 
-"framework-utils@^0.3.4":
+"framework-utils@>=0.3.4":
   "resolved" "https://registry.npmjs.org/framework-utils/-/framework-utils-0.3.4.tgz"
   "version" "0.3.4"
 
@@ -5094,8 +5090,6 @@
 "jsonfile@^4.0.0":
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
   "version" "4.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.6"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
@@ -6807,8 +6801,6 @@
 "prismjs@~1.23.0":
   "resolved" "https://registry.npmjs.org/prismjs/-/prismjs-1.23.0.tgz"
   "version" "1.23.0"
-  dependencies:
-    "clipboard" "^2.0.0"
   optionalDependencies:
     "clipboard" "^2.0.0"
 
@@ -8436,7 +8428,6 @@
   "version" "2.8.29"
   dependencies:
     "source-map" "~0.5.1"
-    "uglify-to-browserify" "~1.0.0"
     "yargs" "~3.10.0"
   optionalDependencies:
     "uglify-to-browserify" "~1.0.0"
@@ -8680,10 +8671,8 @@
   "resolved" "https://registry.npmjs.org/watchpack/-/watchpack-1.7.5.tgz"
   "version" "1.7.5"
   dependencies:
-    "chokidar" "^3.4.1"
     "graceful-fs" "^4.1.2"
     "neo-async" "^2.5.0"
-    "watchpack-chokidar2" "^2.0.1"
   optionalDependencies:
     "chokidar" "^3.4.1"
     "watchpack-chokidar2" "^2.0.1"

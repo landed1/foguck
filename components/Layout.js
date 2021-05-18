@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Cart from "./Cart";
 
 function Layout({ children }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -119,10 +120,7 @@ function Layout({ children }) {
           </div>
         </div>
       </header>
-      {/*
-      // This Cart doesn't really work… yet!
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
-      */}
       <main className="my-8">{children}</main>
       <footer className="bg-gray-200">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">

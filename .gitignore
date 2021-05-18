@@ -2,5 +2,8 @@ node_modules
 public/studio
 .vercel
 .env.development
+.env.test
 .env
 .next
+.sanity-template
+studio
